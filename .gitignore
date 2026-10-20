@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Captured datasets and screenshots (generated locally, can get large)
+fish_dataset/
+img_tmp/
+
+# Model weights and exported models
+*.pth
+*.pt
+*.onnx
+runs/
+
+# Logs and local config overrides
+*.log
+config.local.yaml
